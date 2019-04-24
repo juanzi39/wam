@@ -1,0 +1,64 @@
+sqrt(16)
+x=sqrt(16)
+x
+a=10
+a
+a<-11
+a
+a=a+1
+a
+b=a*a
+b
+x=sqrt(b)
+x
+a=c(4,2,5,10)
+a
+a=1:4
+a
+a=seq(1,10)
+a
+a<5
+a==2
+A=matrix(data=0,nrow=6,ncol=5)
+A
+rcal<-function(x,y)
+{
+  z<-x^2+y^2;
+  result<-sqrt(z);
+  result;
+}
+rcal(3,4)
+sqtest<-function(x.y)
+{
+  z1=x^2;
+  z2=y^2;
+  z3=z1+z2;
+  z3
+  
+}
+a<-c(1,2,5,3,6,-2,4)
+a
+y<-matrix(1:20,nrow=5,ncol=4)
+y
+patientID<-c(1,2,3,4)
+age<-c(25,34,28,52)
+diabetes<-c("Type 1","Type 2","Type 1","Type 2")
+status<-c("poor","improved","excellent","poor")
+patientdata<-data.frame(patientID,age,diabetes,status)
+patientdata
+
+H<-c(1.75,1.80,1.65,1.90,1.74,1.91)
+sq.H<-H^2
+S<-c(60,72,57,90,95,72)
+Ratio<-S/sq.H
+t.test(Ratio,mu=22.5)
+
+data()
+data("InsectSprays")
+boxplot(count~spray,
+        data=InsectSprays)
+x<-runif(50,0,2)
+y<-runif(50,0,2)
+plot(x,y,main="散点图",xlab="横坐标",ylab="纵坐标")
+text(0.6,0.6,"text at(0.6,0.6)")
+abline(h=1,v=0.6)

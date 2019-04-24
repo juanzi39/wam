@@ -1,0 +1,3 @@
+myData<-iris[,1:4]
+cor(x=myData[,Spentall.ength],y=myData[,"SpentalWidth"],
+    use="everything",method="pearson
